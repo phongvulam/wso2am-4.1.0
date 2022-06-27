@@ -1,4 +1,4 @@
-[2022-06-27 9:25:40,330]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
-[2022-06-27 9:25:40,350]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
-[2022-06-27 9:25:40,351]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
-[2022-06-27 9:25:40,351]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2022-06-27 11:23:58,370]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2022-06-27 11:23:58,386]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2022-06-27 11:23:58,386]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2022-06-27 11:23:58,401]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
