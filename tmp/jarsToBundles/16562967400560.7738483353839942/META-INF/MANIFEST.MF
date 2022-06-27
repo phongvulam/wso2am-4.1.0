@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: encoder_1.1
+Export-Package: org.owasp.encoder
+Bundle-Name: encoder_1.1
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .,encoder-1.1.jar
+Bundle-ManifestVersion: 2
+DynamicImport-Package: *
+

@@ -1,0 +1,26 @@
+2022-06-27T09:25:49,626 [-] [Start Level: Equinox Container: f7938e74-be6e-4618-85d4-8b5b79cd7c23]  WARN Digester Match [Server/Service/Engine/Host/Valve] failed to set property [maxDays] to []
+2022-06-27T09:26:04,721 [-] [Framework Event Dispatcher: Equinox Container: f7938e74-be6e-4618-85d4-8b5b79cd7c23]  WARN ApplicationManagementServiceComponent Templates directory not found at D:\wso2\wso2am-4.1.0\bin\..\repository\resources\identity\authntemplates
+2022-06-27T09:27:04,224 [-] [Timer-6]  WARN AppDeployerServiceComponent Waiting for required OSGi services: org.wso2.carbon.application.deployer.synapse.service.SynapseAppDeployerService,org.wso2.carbon.mediation.initializer.services.SynapseEnvironmentService,
+2022-06-27T09:27:04,254 [-] [Timer-7]  WARN StartupFinalizerServiceComponent Waiting for required OSGi services: org.wso2.carbon.application.deployer.service.CappDeploymentService,org.wso2.carbon.server.admin.common.IServerAdmin,org.wso2.carbon.throttling.agent.ThrottlingAgent,
+2022-06-27T09:27:07,952 [-] [Framework Event Dispatcher: Equinox Container: f7938e74-be6e-4618-85d4-8b5b79cd7c23]  WARN SSLUtilBase The trusted certificate with alias [geotrustglobalca] and DN [CN=GeoTrust Global CA, O=GeoTrust Inc., C=US] is not valid due to [NotAfter: Sat May 21 11:00:00 ICT 2022]. Certificates signed by this trusted certificate WILL be accepted
+2022-06-27T09:27:10,332 [-] [https-jsse-nio-9443-exec-20] ERROR GlobalThrowableMapper No API Artifacts
+2022-06-27T09:27:16,723 [-] [Thread-55]  WARN JMSListener Polling tasks on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification have not yet started after 3 seconds ..
+2022-06-27T09:27:16,723 [-] [Thread-56]  WARN JMSListener Polling tasks on destination : keyManager of type topic for listener Siddhi-JMS-Consumer#keyManager have not yet started after 3 seconds ..
+2022-06-27T09:27:17,489 [-] [Thread-71]  WARN JMSListener Polling tasks on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData have not yet started after 3 seconds ..
+2022-06-27T09:27:17,489 [-] [Thread-84]  WARN JMSListener Polling tasks on destination : asyncWebhooksData of type topic for listener Siddhi-JMS-Consumer#asyncWebhooksData have not yet started after 3 seconds ..
+2022-06-27T09:27:17,489 [-] [Thread-78]  WARN JMSListener Polling tasks on destination : cacheInvalidation of type topic for listener Siddhi-JMS-Consumer#cacheInvalidation have not yet started after 3 seconds ..
+2022-06-27T09:27:17,520 [-] [Thread-83]  WARN JMSListener Polling tasks on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData have not yet started after 3 seconds ..
+2022-06-27T09:27:17,520 [-] [Thread-74]  WARN JMSListener Polling tasks on destination : tokenRevocation of type topic for listener Siddhi-JMS-Consumer#tokenRevocation have not yet started after 3 seconds ..
+2022-06-27T09:27:17,520 [-] [Thread-82]  WARN JMSListener Polling tasks on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification have not yet started after 3 seconds ..
+2022-06-27T09:35:59,244 [-] [PassThrough HTTPS-Listener I/O dispatcher Listener]  WARN PassThroughHttpMultiSSLListener System may be unstable: HTTPS ListeningIOReactor encountered a checked exception : Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_111]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_111]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_111]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processSessionRequests(DefaultListeningIOReactor.java:243) ~[httpcore-nio_4.4.15.wso2v1.jar:?]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processEvents(DefaultListeningIOReactor.java:144) ~[httpcore-nio_4.4.15.wso2v1.jar:?]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) ~[httpcore-nio_4.4.15.wso2v1.jar:?]
+	at org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager$1.run(PassThroughListeningIOReactorManager.java:561) ~[synapse-nhttp-transport_2.1.7.wso2v271.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
