@@ -1,2 +1,4 @@
 
 lib/tomcat/work/Catalina/localhost
+repository/deployment/server/jaggeryapps/devportal/node_modules
+repository/deployment/server/jaggeryapps/devportal/site/public/dist
